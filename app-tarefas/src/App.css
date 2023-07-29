@@ -13,6 +13,35 @@
   }
 }
 
+.Cabecalho {
+  background-color: #282c34;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  color: white;
+}
+
+.NovaTarefa {
+  margin: 10px;
+}
+
+.ListaTarefas {
+  background-color: darkcyan;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.Tarefa {
+  background-color: blanchedalmond;
+  color: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 5px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
