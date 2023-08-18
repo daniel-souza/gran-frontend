@@ -38,7 +38,9 @@ export default function App() {
             .map(tarefa => (
               <div key={tarefa.id} className='Tarefa'>
                 <span>{tarefa.titulo}</span>
-                <button type='button' onClick={() => concluirTarefa(tarefa)}>Tarefa concluída?</button>
+                <button type='button' onClick={() => concluirTarefa(tarefa)}>
+                  Tarefa concluída?
+                </button>
               </div>
         ))}
       </div>
