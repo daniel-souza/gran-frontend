@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes, Link, Outlet } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 
 const Home = () => <div className='text-5xl p-20 bg-slate-300 text-center'>Página Principal</div>;
 const Sobre = () => <div className='text-5xl p-20 bg-slate-300 text-center'>Página Sobre</div>;
