@@ -13,6 +13,7 @@ export default async function RootLayout({children}:{children: React.ReactNode})
           <main className="mx-auto flex flex-col gap-2 font-bold">
             <nav className='flex gap-5 justify-around bg-blue-300'>
                 <Link href="/">Página principal</Link>
+                <Link href="/profile">Profile</Link>
                 <AuthButton />
             </nav>
             {children}
